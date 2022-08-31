@@ -1,0 +1,389 @@
+#myVideo {
+    
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+.nav-item a{
+    color: white;
+    
+}
+.dropdown-menu a{
+    background-color:black;
+}
+.ani{
+    padding-top: 15%;
+   
+}
+.ani h1{
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    position: relative;
+   
+    
+}
+#myBtn {
+  width: 50px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 43px;
+  right: 20px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.ani h1::before{
+    content: '';
+    position: absolute;
+    width: 310px;
+    border-bottom: 2px solid rgba(201,201,201,.4);
+    bottom: -20px;
+    left: 50%;
+    margin-left: -155px;
+  
+    
+}
+@media (max-width: 767px) {
+    .mobilehide{
+      display: none !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .ani{
+     left: 9% !important;
+    }
+  }
+@media (max-width: 767px) {
+    .offcanvas-body{
+      
+    background-color: black;
+    width: 100%;
+     
+    }
+   
+ 
+    #myVideo{
+      width: auto;
+      min-width: auto !important;
+      min-height: 100vh !important;
+    }
+    .ani{
+      position: absolute;
+      top: 20% !important;
+      left:22%
+    }
+  }
+  .ani{
+    position: absolute;
+    top: 0;
+    left:22%
+  }
+  .part2{
+  
+        background-image: url(images/getty2.jpg);
+        width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .black{
+    background-color: rgba(0, 0, 0, 0.58);
+  }
+  .creative h2{
+    
+        color: #202020;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .paragraph{
+       
+    color: #444444;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.service{
+  color: #202020;
+font-family: "Montserrat", Sans-serif;
+font-size: 26px;
+font-weight: 700;
+
+}
+.text{
+  font-family: "Montserrat", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.service2{
+ 
+font-family: "Montserrat", Sans-serif;
+font-size: 26px;
+font-weight: 700;
+
+}
+.service3{  
+  color: #ce1e1f;
+font-family: "Montserrat", Sans-serif;
+font-size: 26px;
+font-weight: 700;
+}
+.paragraph3{
+  color: #7a7a7a;
+  font-family: Sans-serif;
+  font-weight: 300;
+}
+ul{
+  color: #7a7a7a;
+  font-family: Sans-serif;
+  font-weight: 300;
+}
+.address1{
+  background-color: #f9f9f9;
+}
+.nav-link:hover{
+  color: #ce1e1f !important;
+}
+.dropdown-item :hover{
+  color: red;
+}
+.service4{
+  color: #202020;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.iframe1 iframe{
+width: 100%;
+height: 461px;
+}
+.title{
+  margin: 0 0 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+}
+.title2{
+  margin: 0 0 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+}
+.title2 a{
+color: #ce1e1f;
+text-decoration: none;
+}
+
+.icon i{
+  padding: 2%;
+}
+.site-footer-separator{
+  background: #232323;
+  height: 1px;
+  width: 100%;
+  border: none;
+  margin-bottom: 0;
+}
+.title1 a{
+  text-decoration: none;
+  color: white;
+}
+.text2{
+
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .ani h1{
+    font-size:30px;
+   
+  }
+}
+@media (max-width: 767px) {
+  .button1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+  }
+}
+@media (max-width: 1000px) {
+  .button1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+  }
+ 
+}
+.about{
+  background-image: url(images/city.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.intro{
+  font-size: 39px;
+  font-family: sans-serif;
+}
+.since{
+  color: #7a7a7a;
+  font-family: Sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+.aboutimg img{
+  border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+.aboutimg3 img{
+  border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+.aboutimg5 img{
+  border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    
+}
+.aboutimg5{
+  padding-top: 40%;
+}
+@media (max-width: 767px) {
+  .aboutimg5{
+    padding-top: 10px;
+   
+  }
+ 
+}
+.contact{
+  font-weight: 700;
+}
+.iframe2 iframe{
+  width: 100%;
+  height: 400px;
+  }
+.forms p{
+  padding-top: 3%;
+}
+
+
+
+
+.service-2-img img:hover{
+  transform: scale(1.2);
+}
+.service-2-img div {
+  overflow: hidden !important;
+}
+.part1{
+  overflow-x: hidden !important;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.prev,
+.next {
+	position: fixed;
+	top: 0;
+	width: 15%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	z-index: 999;
+	color: rgba(255,255,255,.5);
+	font-size: 8rem;
+	font-family: monospace;
+	transition: all .2s;
+}
+
+.prev:hover,
+.next:hover {
+	color: rgba(255,255,255,.8);
+}
+
+.prev {left: -25%;}
+.next {right: -25%;}
+
+.active .prev {left: 0;}
+.active .next {right: 0;}
+
+.container-1 {
+	margin: 10vh auto;
+	max-width: 80%;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-auto-rows: 250px;
+	grid-auto-flow: dense;
+}
+
+.container-1 {
+	text-align: center;
+	padding: 1rem 0;
+	color: white;
+	font-size: 3rem;
+	text-transform: uppercase;
+
+	overflow: hidden;
+	padding: 0;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.container-1 img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	object-position: center;
+	transition: all .5s;
+}
+
+div.show::before {
+	content: '';
+	display: block;
+	position: fixed;
+	z-index: 555;
+	width: 100vw;
+	height: 100vh;
+	top: 0; left: 0;
+	background: rgba(0,0,0,.6);
+}
+
+div.show img {
+	position: fixed;
+	top: 0; left: 0;
+	margin: 30px;
+	align-self: center;
+	object-fit: contain;
+	z-index: 666;
+	width: calc(100% - 60px);
+	height: calc(100% - 60px);
+	filter: drop-shadow(0 3px 15px black);
+	cursor: url(close-button.png), grab; /* custom cursor to signal close on click */
+}
+
+
+
+
